@@ -1,0 +1,33 @@
+{
+  "name": "mobx-class-transformer-validator",
+  "version": "0.0.1",
+  "description": "Mobx Class Tranformer Validator",
+  "author": "quarrant",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "keywords": [
+    "mobx",
+    "class-transformer",
+    "class-validator"
+  ],
+  "homepage": "https://github.com/quarrant/mobx-class-transformer-validator#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quarrant/mobx-class-transformer-validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/quarrant/mobx-class-transformer-validator/issues"
+  },
+  "scripts": {
+    "build": "rm -rf lib && tsc",
+    "prepublishOnly": "yarn build"
+  },
+  "peerDependencies": {
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.12.2"
+  },
+  "devDependencies": {
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.12.2"
+  }
+}
